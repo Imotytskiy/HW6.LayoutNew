@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("../HW6.Layout/fonts/Roboto/Roboto-Medium.ttf");
+    }
+    @font-face{
+        font-family: "NunitoSans";
+        src: url("../HW6.Layout/fonts/Nunito/NunitoSans-Regular.ttf") fo
+        }
+
+.background{
+    height: 300px;
+    background-color: #284854;
+    padding-top: 23px;  
+}
+
+.blockfirst{
+ position: relative;
+ background-color: #60C1BD;
+ margin-left: 113px;
+ margin-right: 97px;
+ border-radius: 25px;
+ height: 81px;
+}
+.in-bl{
+    display: inline-block;
+}
+.vet{
+    position: relative;
+    top: 33;
+}
+
+.IndeVets{
+    position: relative;
+    top: 27px;
+    left: 35px;
+    height: 33px;
+    width: 125px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+.button-login{
+    float: right;
+    text-align: center;
+    margin-right: 77px;
+    height: 27px;
+    width:77px;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+.button-login:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.WHW{
+    float: right;
+    text-align: center;
+    margin-right: 77px;
+    font-size: 18px;
+
+    font-family: 'NunitoSans', sans-serif;;
+    text-decoration:none;
+}
