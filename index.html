@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>ДЗ 6. Верстка макета</title>
     <!-- минимальное, а желательно полное отсутствие position: absolute;-->
 </head>
@@ -37,7 +38,7 @@
         <p class="card-content-p">Apply to become <br> an IndeVet</p>
     </div>
     <div class="card-2">
-        <img class="img2" src="/images/pets_3_figma.png" alt="the girl holds a dog in her arms">
+        <img class="img2" src="/images/pets_3_figma.png" alt="cat and dog">
           <span class="card-content">Hospitals</span>
           <p class="card-content-p m_plus_card2">Become an IndeVets <br> partner</p>
     </div>
@@ -157,36 +158,44 @@
         <div>
             <ul>
                 <li class="first-words">Veterinarians</li>
-                <li>Explore IndeVets</li>
-                <li>Become an IndeVet</li>
-                <li>FAQs for Veterinarians</li>
+                <li><a class="a-plus"href="#">Explore IndeVets</a></li>
+                <li><a class="a-plus"href="#">Become an IndeVet</a></li>
+                <li><a class="a-plus"href="#">FAQs for Veterinarians</a></li>
             </ul>
         </div>
         <div>
             <ul>
                 <li class="first-words">Hospitals</li>
-                <li>Partnering with IndeVets</li>
-                <li>Become a Partner</li>
-                <li>Frequently Asked Questions</li>
+                <li><a class="a-plus"href="#">Partnering with IndeVets</a></li>
+                <li><a class="a-plus"href="#">Become a Partner</a></li>
+                <li><a class="a-plus"href="#">Frequently Asked Questions</a></li>
             </ul>
         </div>
         <div class="footer-image">
-            <img class="last-img" src="/images/dog_5.png" alt="dog speak with the human">
+            <img src="/images/dog_5.png" alt="dog speak with the human">
         </div>
         <div>
-            <ul>
-                <li class="first-words">Find Us</li>
-                <li>990 Spring Garden Street <br>
-                    Suite 402 <br>
-                    Philadelphia, PA 19123 <br> </li>
-                <li>(833) IndeVets <br>
-                    (833) 463-3838 </li>
-            </ul>
+                <div class="first-words">Find Us</div>
+                <p>
+                    <a class="adr" href="#">990 Spring Garden Street<br>Suite 402<br>Philadelphia, PA 19123<br>&nbsp;</a>
+                </p>
+                <div style="margin-bottom: 40px;">
+                    <a class="adr" href="#">(833) IndeVets<br>(833) 463-3838</a>
+                </div>
         </div>
-        <div>
-
         </div>
       </footer>
+      <div class="mb">
+      <ul class="hr">
+        <li><a class="a" href=""> Why IndeVets?</a></li>
+        <li><a class='a' href="">Blog</a></li>
+        <li><a class='a' href="">Jobs</a></li>
+        <li><a class='a' href="">Contact Us</a></li>
+        <li><a class='a' href="">Login</a></li>
+        <li><a class='a' href="">Privacy Policy</a></li>
+       </ul>
+    </div>
+    <span>&emsp;&emsp;©IndeVets 2021</span>
 
 </body>
 </html>
