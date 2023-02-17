@@ -157,14 +157,14 @@
 
   }
 
-  .card-href{
+  .change-color{
     text-decoration: none;
     font-size: 20px;
     color: #60C1BD;
     font-family: 'NunitoSans', sans-serif; 
   }
 
-  .card-href:hover {
+  .change-color:hover {
     color: #284854;
   }
 
