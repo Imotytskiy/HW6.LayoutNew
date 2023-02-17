@@ -139,7 +139,7 @@
     width:  119px;
     margin: 45px 0px 47px 30px;
   }
-  .card-content{
+  .card1-content{
     display: inline-block;
     position: relative;
     font-size: 37px;
@@ -149,14 +149,19 @@
     font-family: 'Roboto-Regular', sans-serif;
   }
   
-  .card-content-p{
+  .card2-content{
     display: inline-block;
     position: relative;
-    font-size: 20px;
-    margin-left: 190px;
-    color: #60C1BD;
     bottom: 110px;
-    font-family: 'NunitoSans', sans-serif;;
+    margin-left: 200px;
+
+  }
+
+  .card-href{
+    text-decoration: none;
+    font-size: 20px;
+    color: #60C1BD;
+    font-family: 'NunitoSans', sans-serif; 
   }
 
 .h4_text{
