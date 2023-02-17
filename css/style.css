@@ -364,7 +364,7 @@ ul.hr li {
 .a{
     text-decoration: none;
     margin-left: 40px;
-    font-size: 14;
+    font-size: 14px;
     font-family: 'NunitoSans', sans-serif;
     color:#60C1BD;
 
@@ -372,7 +372,7 @@ ul.hr li {
 
 .a-plus{
     text-decoration: none;
-    font-size: 14;
+    font-size: 14px;
     font-family: 'NunitoSans', sans-serif;
     color:#60C1BD;
     line-height: 2.0;
